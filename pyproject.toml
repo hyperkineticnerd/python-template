@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my-project-template"
+version = "0.1.0"
+description = ""
+authors = ["Sean Nelson <hyperkineticnerd@gmail.com>"]
+readme = "README.md"
+packages = [{include = "my_project_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
